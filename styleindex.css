@@ -8,7 +8,7 @@
 
 body {
   text-align: center;
-  font-family: sans-serif;
+  font-family: tahoma;
 }
 
 
@@ -17,7 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 63px;
-  background: #171717;
+  background: #f5f5f5; /* color de fondo del menu horizontal */
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -35,14 +35,15 @@ body {
 .navbar a {
   display: block;
   padding: 23px 20px;
-  color: #fff;
+  color: #070744; /* color de letras del menu horizontal */
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
 }
 
 .navbar a:hover {
-  background: #3f3f3f;
+  /* background: #800080; color al pasar el cursor del menu horizontal */
+  text-decoration: underline;
 }
 
 .header {
@@ -57,32 +58,32 @@ body {
   background-size: cover;
 }
 
-.title {
+.title { /* titulos */
   margin-bottom: 40px;
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #070744; /* color de los titulos */
 }
 
-p {
+p { /* parrafos */
   margin-bottom: 40px;
   font-size: 18px;
-  color: #fff;
+  color: #87CEFA; /* color de los parrafos */ 
 }
 
-.btn {
+.btn { /* botones */
   display: inline-block;
   margin-top: 15px;
   padding: 10px 40px;
-  border: 2px solid #9c27b0;
-  color: #fff;
+  /* border: 2px solid #9c27b0; */
+  color: #FFFFFF;
   text-decoration: none;
-  background: #9c27b0;
+  background: #7FAF1D;
 }
 
 .btn:hover {
-  background: none;
+  background: #070744; /* color de fondo al pasar el cursor en los botones */
 }
 
 .btn-home {
@@ -101,3 +102,36 @@ p {
   align-items: center;
 }
 
+.sau {
+  padding: 30px;
+  background: #FFFFFF; /* color de fondo de la seccion de productos */
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  /* background: #0000ff; */
+  text-align: center;
+  /* border-radius: 1rem; */
+  /* box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5); */
+  margin: 2rem;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #7FAF1D;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
