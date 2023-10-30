@@ -69,7 +69,8 @@ body {
 p { /* parrafos */
   margin-bottom: 40px;
   font-size: 18px;
-  color: #87CEFA; /* color de los parrafos */ 
+  color: #87CEFA; /* color de los parrafos */
+  padding: 0 100px;
 }
 
 .btn { /* botones */
@@ -134,4 +135,47 @@ p { /* parrafos */
   background: #7FAF1D;
   font-size: 2rem;
   margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: 9c27b0;
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.about {
+  background: #FFFFFF;
+}
+
+.price {
+  background: url(otlad13.jpg) no-repeat center;
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+}
+
+.contact {
+  padding-top: 20px;
+  background: #FFFFFF;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .tittle {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .sau {
+    height: 120vh;
+  }
+
+  .navbar {
+    display: none;
+  }
+
 }
