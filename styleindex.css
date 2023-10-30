@@ -62,11 +62,13 @@ body {
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #fff;
 }
 
 p {
   margin-bottom: 40px;
   font-size: 18px;
+  color: #fff;
 }
 
 .btn {
@@ -78,3 +80,24 @@ p {
   text-decoration: none;
   background: #9c27b0;
 }
+
+.btn:hover {
+  background: none;
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home a {
+  margin: 0 10px;
+}
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
